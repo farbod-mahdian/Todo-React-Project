@@ -1,0 +1,33 @@
+.editModal {
+  display: block;
+}
+
+.editModal input {
+  outline: none;
+  padding: 5px;
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  width: 75%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.editModal input:focus {
+  background-color: rgb(240, 240, 240);
+}
+
+.editModal button {
+  display: block;
+  margin: 1rem auto;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 3px solid rgb(79, 119, 42);
+  background-color: rgb(79, 119, 42);
+  color: white;
+}
+
+.editModal button:hover {
+  color: rgb(79, 119, 42);
+  background-color: white;
+}

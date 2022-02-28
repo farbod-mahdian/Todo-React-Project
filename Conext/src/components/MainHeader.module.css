@@ -1,0 +1,28 @@
+.header {
+  background-color: rgb(82, 121, 45);
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header li {
+  display: inline-block;
+  margin: 1rem 0;
+  text-align: center;
+  width: 50%;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+
+.header a.active {
+  color: white;
+  font-weight: bold;
+  border-bottom: 4px solid white;
+}

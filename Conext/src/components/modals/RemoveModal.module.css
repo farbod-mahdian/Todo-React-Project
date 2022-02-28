@@ -1,0 +1,31 @@
+.removeModal {
+  display: block;
+  margin: 1rem;
+}
+
+.actions {
+  display: block;
+  text-align: right;
+}
+
+.actions button {
+  width: 5rem;
+  height: 2rem;
+  margin-right: 1rem;
+  border: 3px solid rgb(79, 119, 42);
+  border-radius: 5px;
+}
+
+.actions button:hover {
+  opacity: 0.7;
+}
+
+.confirm {
+  color: white;
+  background-color: rgb(79, 119, 42);
+}
+
+.cancel {
+  color: rgb(79, 119, 42);
+  background-color: white;
+}

@@ -1,0 +1,36 @@
+.form {
+  width: 100%;
+}
+
+.form input {
+  outline: none;
+  display: block;
+  width: 40rem;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  border: 2px solid rgba(175, 175, 175, 0.315);
+  border-bottom: 2px solid rgb(151, 224, 82);
+  border-radius: 4px;
+}
+
+.form input:focus {
+  background-color: rgba(175, 175, 175, 0.315);
+  border-bottom: 4px solid rgb(151, 224, 82);
+}
+
+.form button {
+  display: block;
+  margin: 1rem auto;
+  width: 10rem;
+  padding: 0.5rem;
+  background-color: rgb(151, 224, 82);
+  font: inherit;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid rgb(151, 224, 82);
+}
+
+.form button:hover,
+.form button:active {
+  background-color: white;
+}

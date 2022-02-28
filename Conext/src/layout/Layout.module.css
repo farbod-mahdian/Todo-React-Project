@@ -1,0 +1,10 @@
+.main {
+  display: block;
+  background-color: white;
+  padding-bottom: 1rem;
+  width: 50rem;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.486);
+  border-radius: 10px;
+}

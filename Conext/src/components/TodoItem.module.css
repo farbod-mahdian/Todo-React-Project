@@ -1,0 +1,34 @@
+.todoItem {
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.486);
+  border-radius: 5px;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 40rem;
+}
+
+.text {
+  display: block;
+  word-wrap: break-word;
+}
+
+.todoItem button {
+  padding: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid rgb(236, 201, 83);
+  border-radius: 5px;
+  background-color: rgb(236, 201, 83);
+  cursor: pointer;
+}
+
+.todoItem button:hover {
+  background-color: rgb(151, 129, 54);
+  color: white;
+}
+
+.actions {
+  display: block;
+  text-align: right;
+}

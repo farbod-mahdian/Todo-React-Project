@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktodos=self.webpackChunktodos||[]).push([[849],{849:function(t,e,n){n.r(e),n.d(e,{default:function(){return d}});var u=n(791),o=n(52),r="AddTodoForm_form__thYQG",s=n(184),d=function(){var t=(0,u.useContext)(o.o),e=(0,u.useRef)();return(0,s.jsxs)("form",{className:r,onSubmit:function(n){n.preventDefault(),t.addTodo(e.current.value)},children:[(0,s.jsx)("input",{type:"text",ref:e}),(0,s.jsx)("button",{type:"submit",children:"Add"})]})}}}]);
-//# sourceMappingURL=849.294d9444.chunk.js.map

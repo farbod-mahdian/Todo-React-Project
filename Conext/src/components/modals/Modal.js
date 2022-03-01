@@ -11,7 +11,11 @@ const Backdrop = (props) => {
 };
 
 const ModalTemp = (props) => {
-  return <div className={classes.modalTemp}>{props.children}</div>;
+  return (
+    <div className={classes.modalBack}>
+      <div className={classes.modalTemp}>{props.children}</div>
+    </div>
+  );
 };
 
 const Modal = (props) => {

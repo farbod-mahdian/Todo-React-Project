@@ -16,18 +16,30 @@
   background-color: rgb(240, 240, 240);
 }
 
-.editModal button {
+.actions {
+  width: 100%;
   display: block;
-  margin: 1rem auto;
+  text-align: center;
+}
+
+.editModal button {
+  margin: 0 1rem 1rem 0;
   width: 5rem;
   height: 2rem;
   border-radius: 10px;
   border: 3px solid rgb(79, 119, 42);
+}
+
+.editModal button:hover {
+  opacity: 0.7;
+}
+
+.submit {
   background-color: rgb(79, 119, 42);
   color: white;
 }
 
-.editModal button:hover {
-  color: rgb(79, 119, 42);
+.cancel {
   background-color: white;
+  color: rgb(79, 119, 42);
 }

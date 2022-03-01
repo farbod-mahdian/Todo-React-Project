@@ -36,7 +36,14 @@ const EditModal = () => {
   return (
     <div className={classes.editModal}>
       <input type="text" value={selectedText} onChange={textChangeHandler} />
-      <button onClick={editHandler}>Submit</button>
+      <div className={classes.actions}>
+        <button className={classes.submit} onClick={editHandler}>
+          Submit
+        </button>
+        <button className={classes.cancel} onClick={modalCtx.resetModal}>
+          Cancel
+        </button>
+      </div>
     </div>
   );
 };

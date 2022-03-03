@@ -5,7 +5,9 @@
 .form input {
   outline: none;
   display: block;
+
   width: 70%;
+
   padding: 0.5rem;
   margin: 1rem auto;
   border: 2px solid rgba(175, 175, 175, 0.315);
